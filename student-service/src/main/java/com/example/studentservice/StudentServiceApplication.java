@@ -9,6 +9,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class StudentServiceApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(StudentServiceApplication.class, args);
+		System.out.println("Starting API Gateway Server ");
 	}
 }
